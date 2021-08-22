@@ -11,7 +11,7 @@ import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-object AppModule {
+object LaunchModule {
   val BASE_URL = "https://api.spacexdata.com"
 
   @Singleton
